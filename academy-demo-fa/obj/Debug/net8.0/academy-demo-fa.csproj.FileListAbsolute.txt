@@ -1,0 +1,14 @@
+C:\Users\femi.ashiru\Documents\C_\academy-demo-fa\academy-demo-fa\bin\Debug\net8.0\academy-demo-fa.exe
+C:\Users\femi.ashiru\Documents\C_\academy-demo-fa\academy-demo-fa\bin\Debug\net8.0\academy-demo-fa.deps.json
+C:\Users\femi.ashiru\Documents\C_\academy-demo-fa\academy-demo-fa\bin\Debug\net8.0\academy-demo-fa.runtimeconfig.json
+C:\Users\femi.ashiru\Documents\C_\academy-demo-fa\academy-demo-fa\bin\Debug\net8.0\academy-demo-fa.dll
+C:\Users\femi.ashiru\Documents\C_\academy-demo-fa\academy-demo-fa\bin\Debug\net8.0\academy-demo-fa.pdb
+C:\Users\femi.ashiru\Documents\C_\academy-demo-fa\academy-demo-fa\obj\Debug\net8.0\academy-demo-fa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\femi.ashiru\Documents\C_\academy-demo-fa\academy-demo-fa\obj\Debug\net8.0\academy-demo-fa.AssemblyInfoInputs.cache
+C:\Users\femi.ashiru\Documents\C_\academy-demo-fa\academy-demo-fa\obj\Debug\net8.0\academy-demo-fa.AssemblyInfo.cs
+C:\Users\femi.ashiru\Documents\C_\academy-demo-fa\academy-demo-fa\obj\Debug\net8.0\academy-demo-fa.csproj.CoreCompileInputs.cache
+C:\Users\femi.ashiru\Documents\C_\academy-demo-fa\academy-demo-fa\obj\Debug\net8.0\academy-demo-fa.dll
+C:\Users\femi.ashiru\Documents\C_\academy-demo-fa\academy-demo-fa\obj\Debug\net8.0\refint\academy-demo-fa.dll
+C:\Users\femi.ashiru\Documents\C_\academy-demo-fa\academy-demo-fa\obj\Debug\net8.0\academy-demo-fa.pdb
+C:\Users\femi.ashiru\Documents\C_\academy-demo-fa\academy-demo-fa\obj\Debug\net8.0\academy-demo-fa.genruntimeconfig.cache
+C:\Users\femi.ashiru\Documents\C_\academy-demo-fa\academy-demo-fa\obj\Debug\net8.0\ref\academy-demo-fa.dll

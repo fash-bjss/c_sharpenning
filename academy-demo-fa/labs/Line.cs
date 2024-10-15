@@ -8,7 +8,7 @@ namespace academy_demo_fa.labs
 {
     public class Line : IShape
     {
-        public int LineLength { get; protected set; } = 5;
+        public int LineLength { get; } = 5;
         public void Draw(IDisplay display)
         {   
             display.Write(new string('*', LineLength));

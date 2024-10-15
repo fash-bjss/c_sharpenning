@@ -9,9 +9,14 @@ namespace academy_demo_fa.labs
     public class RandomQuote : IShape
     {
         private List<string> allQuotes;
+        private string randomQuote;
+        private TextBox textBox;
+
         public RandomQuote(List<string> quotes) {
         
             this.allQuotes = quotes;
+            this.randomQuote = GetRandomQuote();
+            this.textBox = new TextBox(this.randomQuote);
 
         }
 
@@ -24,15 +29,14 @@ namespace academy_demo_fa.labs
 
             return chosenQuote;
         }
+
         public void Draw(IDisplay display)
         {
-            string chosenQuote = GetRandomQuote();
-            display.Write(chosenQuote);
+            textBox.Draw(display);
         }
 
         public void Draw()
         {
-            string chosenQuote = GetRandomQuote();
             
         }
     }

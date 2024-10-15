@@ -42,15 +42,15 @@ namespace academy_demo_fa.labs
             //all.Draw();
 
             // Separation of concerns - adding ConsoleDisplay -----------------
-            IDisplay newDisplay = new ConsoleDisplay();
-            BracketedDisplay bracketDisplay = new BracketedDisplay();
+            
+            IDisplay bracketDisplay = new BracketedDisplay();
             Shapes all = new Shapes(bracketDisplay);
             all.Add(new Line());
             all.Add(new Box());
             all.Add(new TextBox("Hello"));
-
-
             all.Draw();
+
+            IDisplay newDisplay = new ConsoleDisplay();
             all.Draw(newDisplay);
 
 
@@ -69,18 +69,19 @@ namespace academy_demo_fa.labs
 
             RandomQuote myRandomQuote = new RandomQuote(allQuotes);
 
-            myRandomQuote.Draw();
 
             Shapes all2 = new Shapes(newDisplay);
             all2.Add(new Line());
             all2.Add(new Box());
             all2.Add(new TextBox("GoodBye"));
+            all2.Add(myRandomQuote);
             
             // Usefull if you have created lots of Shapes in various places and want to Draw them with one action
             all.Add(all2);
 
-            all.Draw();
+            all.Draw(); //Bracketed
             all2.Draw();
+
 
         }
     }

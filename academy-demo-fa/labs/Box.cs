@@ -8,7 +8,7 @@ namespace academy_demo_fa.labs
 {
     public class Box : IShape
     {   
-        protected Line line = new Line();
+        private Line line = new Line();
 
         public void Draw(IDisplay display)
         {

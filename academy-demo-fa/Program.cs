@@ -5,6 +5,7 @@ using academy_demo_fa;
 using academy_demo_fa.radio;
 using academy_demo_fa.calc;
 using academy_demo_fa.cars;
+using academy_demo_fa.labs;
 
 Person p = new Person("Sade", 65); 
 // No longer can be set as set is private (can be removed to make public) { Name = "Sade", Age=65};
@@ -199,5 +200,8 @@ Console.WriteLine("\n");
 
 Console.WriteLine("The car is going " + roadster.Speed.Mph + "mph and the headlights are " + roadster.Headlights.Status);
 
+Console.WriteLine("\n");
+// LABS
+Console.WriteLine("LABS\n");
 
-
+new Labs().Run();

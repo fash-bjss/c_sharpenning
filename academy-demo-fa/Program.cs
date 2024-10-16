@@ -6,6 +6,13 @@ using academy_demo_fa.radio;
 using academy_demo_fa.calc;
 using academy_demo_fa.cars;
 using academy_demo_fa.labs;
+using academy_demo_fa.guessGame;
+
+using academy_demo_fa.guessGame.writers;
+using academy_demo_fa.guessGame.screenClearers;
+using academy_demo_fa.guessGame.randomGenerator;
+using academy_demo_fa.guessGame.lives;
+using academy_demo_fa.guessGame.readers;
 
 Person p = new Person("Sade", 65); 
 // No longer can be set as set is private (can be removed to make public) { Name = "Sade", Age=65};
@@ -205,3 +212,15 @@ Console.WriteLine("\n");
 Console.WriteLine("LABS\n");
 
 new Labs().Run();
+
+
+// GUESS GAME
+
+IOutputDisplay writer = new Writer();
+IInputReader reader = new Reader(writer);
+IScreenClearer clearer = new Clearer();
+IRandomGenerator randGen = new RandomNumberGenerator(1, 101);
+ILifeCounter lifecounter = new MyLives(5);
+
+
+new Game(writer, reader, clearer, randGen, lifecounter).Run();
